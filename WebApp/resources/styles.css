@@ -1,0 +1,26 @@
+.selecterContainer {
+    display: flex;
+    float: left;
+    width: 300px;
+    border: solid;
+    border-width: 5px;
+    height: max-content;
+}
+
+
+.card {
+    margin: 5px;
+    width: 270px;
+    height: 80px;
+    padding: 10px;
+    border: solid;
+    border-width: 1px;
+
+    
+}
+
+.card > .image {
+        display: inline-block;
+        width: 55px;
+        height: auto;
+}

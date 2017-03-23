@@ -1,0 +1,29 @@
+{
+  "name": "healthpulse_webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stammtisch/healthpulse.git"
+  },
+  "author": "stammtisch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stammtisch/healthpulse/issues"
+  },
+  "homepage": "https://github.com/stammtisch/healthpulse#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "node-loader": "^0.6.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
